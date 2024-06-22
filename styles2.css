@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+    color:#FFE3E1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Arial, Helvetica, Verdana, sans-serif;
+    position: relative;
+    top: 90px;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #252424;
+    color: #F9D689;
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Arial, Helvetica, Verdana, sans-serif;
+}
+
+.logo {
+    width: 80px;
+    height: 84px;
+    position: absolute;
+    top: -38px;
+    left: 288px;
+    border: solid #252424; 
+}
+
+body {
+    min-height: 100vh;
+    background-color: #32324D;
+}
+
+.main {
+    background-color: #32324D;
+    width: 1400px;
+    height: 800px;
+    position: absolute;
+    left: 0px;
+}
+
+.left {
+    width: 250px;
+    height: 800px;
+    background-color: #222831;
+    border-radius: 10px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+}
+
+.right {
+    width: 796px;
+    height: 510px;
+    background-color:#222831;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 10px;
+    top: 0px;
+    left: 300px
+}
+
+.catch_phrase {
+    font-family: 'Lucida Sans', Arial, Verdana, Tahoma, 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    color: #F9D689;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    text-align: center;
+}
+
+
+
+img {
+    width: 190px;
+    height: 280px;
+    border-radius: 10px;
+    border: solid gold;
+    margin-left: 30px;
+    margin-top: 80px;
+    
+}
+
+
+
+img:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.3);
+    border-color:tomato;
+}
+
+
+
+.Skyfall {
+    color: #F9D689;
+    font-family: 'Lucida Sans', Arial, Verdana, Tahoma, sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.video_frame {
+    border-radius: 10px;
+    border: solid  #EE4E4E;
+    position: relative;
+    top: 10px;
+    left: 10px
+}
+
+.right_lower {
+    border-radius: 10px;
+    width: 796px;
+    height: 300px;
+    background-color:#222831;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 10px;
+    top: 500px;
+    left: 300px
+}
+
+.synopsis {
+    font-family: 'Lucida Sans', Arial, Verdana, Tahoma, 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    color: #F9D689;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+
+}
+
+hr {
+    border: 1px solid #F9D689;
+    position: relative;
+    top: 70px;
+    margin: 0 20px;
+}
+
+.genre {
+    font-family: 'Lucida Sans', Arial, Verdana, Tahoma, 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    color: #F9D689;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+.genre_underline {
+    top: 110px;
+}
+
+.genre_p {
+    top: 120px;
+}
+
+.cast_hdr {
+    
+    font-family: 'Lucida Sans', Arial, Verdana, Tahoma, 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 16px;
+    color: #F9D689;
+    margin-left: 12px;
+    position: absolute;
+    left: 18px;
+    top: 410px;
+}
+
+.director_hdr {
+    font-family: 'Lucida Sans', Arial, Verdana, Tahoma, 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 16px;
+    color: #F9D689;
+    margin-left: 12px;
+    position: relative;
+    left: 18px;
+    top: 90px;
+} 
+
+.director_ln {
+    border: 1px solid #F9D689;
+    position: relative;
+    top: 90px;
+}
+
+.director_p {
+    color:#FFE3E1;
+    top: 110px;
+}
